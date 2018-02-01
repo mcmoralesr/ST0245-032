@@ -1,6 +1,6 @@
 
 public class Euc{
-    //se debe asumir que A es mas grande que B
+    //se debe asumir que P es mas grande que Q
     public static int gcd(int p, int q){
         if(q == 0) return p;
         int r= p%q; 
