@@ -1,0 +1,13 @@
+public class Combinaciones{
+    public static void combinations(String s) {
+        combinationsAux("", s);
+    }
+
+    private static void combinationsAux(String base, String s) {
+        if (s.equals("")) System.out.println(base);
+        else {
+            combinationsAux(base + s.substring(0, 1), s.substring(1));
+            combinationsAux(base, s.substring(1));
+        }
+    }
+}
