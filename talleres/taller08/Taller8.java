@@ -5,7 +5,7 @@ import java.util.LinkedList;
 /**
  * Write a description of class Taller8 here.
  * 
- * @author (your name) 
+ * @author (Maria Camila Morales)
  * @version (a version number or a date)
  */
 public class Taller8
