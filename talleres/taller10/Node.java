@@ -1,6 +1,4 @@
-/**
-* @MARIA_CAMILA_MORALES
-*/
+
  public class Node{
 	public Node left;
 	public Node right;
